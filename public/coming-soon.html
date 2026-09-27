@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Lavori in corso</title>
+  <title>Lavori in corso - G.A.G.A. Vicenza</title>
   <style>
     body {
       margin: 0;
@@ -16,40 +16,99 @@
       background-color: #0d1b2a;
       color: #ffffff;
       font-family: system-ui, sans-serif;
-      font-size: 1rem
+      font-size: 1rem;
+      line-height: 1.6;
     }
-    h1 { text-align: center; align-items: center; font-size: clamp(1.8rem, 5vw, 3rem); margin-bottom: 1rem; }
-    h3 { text-align: left; margin-bottom: -0.5 rem; }
-    p { font-size: 1rem; opacity: 0.85; }
-    strong { font-size: 1rem; opacity: 0.85; }
-    a { color: #ffffff; }
+    
+    /* Contenitore principale centrato con larghezza massima per leggibilità */
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    h1 { 
+      text-align: center; 
+      font-size: clamp(1.8rem, 5vw, 3rem); 
+      margin-bottom: 2rem; 
+    }
+
+    h3 { 
+      text-align: left; 
+      margin-top: 2rem;
+      margin-bottom: 0.5rem; 
+      color: #79d7ed; /* Un tocco di colore elegante per i titoli secondari */
+    }
+
+    p { 
+      font-size: 1rem; 
+      opacity: 0.85; 
+    }
+
+    /* Stile dedicato e accessibile per la frase di presentazione */
+    .lead {
+      font-size: 1.15rem;
+      opacity: 1;
+      font-weight: 400;
+      border-left: 4px solid #79d7ed;
+      padding-left: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    strong { 
+      opacity: 1; 
+    }
+    
+    a { 
+      color: #79d7ed; 
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: #ffffff;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+      opacity: 0.85;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
   </style>
 </head>
 <body>
-  <h1>Stiamo preparando un nuovo sito!<br/>
-  Nel frattempo...</h1>
-  <p>G.A.G.A. Vicenza è un'organizzazione di volontariato che rivolge i suoi servizi alle persone LGBTQIA+, in particolare giovani, migranti, rifugiate e vittime di tratta.<br/>
-L'associazione offre, grazie alle persone volontarie, uno sportello di ascolto e informativo.</p>
-  <h3>Come contattarci</h3>
-  <p><strong>Sei professionista, associazione o ente?</strong> <br/> Scrivici <a href="mailto:info@associazione.it">qui</a>.</p>
-  <p><strong>Vuoi prenotare un appuntamento con il nostro sportello?</strong><br/>
-  Compila il modulo di richiesta cliccando <a href="https://forms.gle/PMTbAjrLj1fxCv9m6">qui</a>.</p>
-  <h3>Dove siamo</h3>
-  <p>La nostra sede è all'interno del <strong>Polo Giovani B55</strong>, Contrà Barche 55, 36100, Vicenza.<br/>
-<strong>Aperto solo su appuntamento.</strong></p>
-<h3>Come raggiungerci</h3>
-  <ul>
-    <li>ingresso dal cancello del <strong>Teatro Astra</strong>, il Polo è l'edificio sul lato destro del cortile;</li>
-    <li>sono presenti nelle vicinanze (< 300 m) due fermate del trasporto pubblico, <strong>Contrà della Piarda fr.te civico  11</strong> (linee 1, 2, 4, 5, 7, 17) e Via Giuriolo (linee 1, 2, 4, 5, 7, 9, 10, 11);</li>
-    <li>dal lato opposto della strada è presente un parcheggio a pagamento <strong>Park le Barche</strong> (Contrà Barche 51); altri parcheggi a pagamento nelle vicinanze sono <strong>Park Matteotti</strong> (Piazza Matteotti 25, 250 m) e <strong>Park Stadio</strong> (Via Bassano 7, 1.1 km), oppure gli stalli a pagamento lungo <strong>Via Giuriolo</strong> (400 m).</li>
-</ul>
-<h3>Informazioni di accessibilità</h3>
- <ul>
-    <li>l'ingresso principale presenta una rampa di scale; l'ufficio (Sala Atlantide) è al piano interrato, raggiungibile tramite due rampe di scale o con <strong>ascensore</strong>/montacarichi;</li>
-    <li>è presente un <strong>accesso con rampa percorribile in sedia a rotelle</strong>;</li>
-    <li>il <strong>bagno disabili</strong> è collocato al piano interrato (raggiungibile con ascensore/montacarichi).</li>
-</ul>
+  <div class="container">
+    <h1>Stiamo preparando un nuovo sito!<br/>Nel frattempo...</h1>
+    
+    <!-- Frase di presentazione distaccata ed elegante -->
+    <p class="lead">
+      <strong>G.A.G.A. Vicenza</strong> è un'organizzazione di volontariato che rivolge i suoi servizi alle persone LGBTQIA+, in particolare giovani, migranti, rifugiate e vittime di tratta. L'associazione offre, grazie alle persone volontarie, uno sportello di ascolto e informativo.
+    </p>
 
-
+    <h3>Come contattarci</h3>
+    <p><strong>Sei un professionista, un'associazione o un ente?</strong><br/>Scrivici <a href="mailto:info@associazione.it">qui</a>.</p>
+    <p><strong>Vuoi prenotare un appuntamento con il nostro sportello?</strong><br/>
+    Compila il modulo di richiesta cliccando <a href="https://forms.gle/PMTbAjrLj1fxCv9m6" target="_blank" rel="noopener">qui</a>.</p>
+    
+    <h3>Dove siamo</h3>
+    <p>La nostra sede è all'interno del <strong>Polo Giovani B55</strong>, Contrà Barche 55, 36100, Vicenza.<br/>
+    <strong>Aperto solo su appuntamento.</strong></p>
+    
+    <h3>Come raggiungerci</h3>
+    <ul>
+      <li>ingresso dal cancello del <strong>Teatro Astra</strong>, il Polo è l'edificio sul lato destro del cortile;</li>
+      <li>sono presenti nelle vicinanze (&lt; 300 m) due fermate del trasporto pubblico, <strong>Contrà della Piarda fr.te civico 11</strong> (linee 1, 2, 4, 5, 7, 17) e Via Giuriolo (linee 1, 2, 4, 5, 7, 9, 10, 11);</li>
+      <li>dal lato opposto della strada è presente un parcheggio a pagamento <strong>Park le Barche</strong> (Contrà Barche 51); altri parcheggi a pagamento nelle vicinanze sono <strong>Park Matteotti</strong> (Piazza Matteotti 25, 250 m) e <strong>Park Stadio</strong> (Via Bassano 7, 1.1 km), oppure gli stalli a pagamento lungo <strong>Via Giuriolo</strong> (400 m).</li>
+    </ul>
+    
+    <h3>Informazioni di accessibilità</h3>
+    <ul>
+      <li>l'ingresso principale presenta una rampa di scale; l'ufficio (Sala Atlantide) è al piano interrato, raggiungibile tramite due rampe di scale o con <strong>ascensore</strong>/montacarichi;</li>
+      <li>è presente un <strong>accesso con rampa percorribile in sedia a rotelle</strong>;</li>
+      <li>il <strong>bagno disabili</strong> è collocato al piano interrato (raggiungibile con ascensore/montacarichi).</li>
+    </ul>
+  </div>
 </body>
 </html>

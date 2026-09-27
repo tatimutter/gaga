@@ -1,6 +1,6 @@
 import type { CSSProperties } from "react";
 
-export default function Hero(): JSX.Element {
+export default function Hero() {
   const heroImageStyle: CSSProperties = {
     WebkitMaskImage: "url(/assets/img/hero/hero-blob-1.svg)",
     maskImage: "url(/assets/img/hero/hero-blob-1.svg)",

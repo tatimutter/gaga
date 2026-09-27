@@ -15,7 +15,7 @@ const PROJECTS: Project[] = [
   { img: "project-landscape-4.jpg", title: "Innovative Day", category: "Photography" },
 ];
 
-export default function Portfolio(): JSX.Element {
+export default function Portfolio() {
   return (
     <section id="scrollspyPortfolio" className="py-5 py-xl-8 bsb-section-py-xxl-1">
       <div className="container mb-5 mb-md-6 mb-xl-10">

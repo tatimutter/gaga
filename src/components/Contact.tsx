@@ -1,4 +1,4 @@
-export default function Contact(): JSX.Element {
+export default function Contact() {
   return (
     <section id="scrollspyContact" className="py-5 py-xl-8 bsb-section-py-xxl-1">
       <div className="container">

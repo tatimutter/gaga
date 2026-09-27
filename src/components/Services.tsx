@@ -53,7 +53,7 @@ const SERVICES: Service[] = [
   },
 ];
 
-export default function Services(): JSX.Element {
+export default function Services() {
   return (
     <section id="scrollspyServices" className="py-5 py-xl-8 bsb-section-py-xxl-1">
       <div className="container mb-5 mb-md-6 mb-xl-10">

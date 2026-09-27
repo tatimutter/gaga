@@ -1,6 +1,6 @@
 import type { CSSProperties } from "react";
 
-export default function CtaBanner(): JSX.Element {
+export default function CtaBanner() {
   const bannerStyle: CSSProperties = {
     backgroundImage: "url('/assets/img/cta/cta-img-1.jpg')",
   };

@@ -40,7 +40,7 @@ const PLANS: Plan[] = [
   },
 ];
 
-export default function Pricing(): JSX.Element {
+export default function Pricing() {
   return (
     <section id="scrollspyPricing" className="bsb-pricing-1 bsb-tpl-bg-sea-shell py-5 py-xl-8 bsb-section-py-xxl-1">
       <div className="container">

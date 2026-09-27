@@ -14,7 +14,7 @@ const NAV_LINKS: NavLink[] = [
   { href: "#scrollspyContact", label: "Contact" },
 ];
 
-export default function Navbar(): JSX.Element {
+export default function Navbar() {
   return (
     <header id="header" className="sticky-top bsb-tpl-header-sticky bsb-tpl-header-sticky-animationX">
       <nav

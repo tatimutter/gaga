@@ -11,7 +11,7 @@ const TEAM: Member[] = [
   { img: "team-img-4.jpg", name: "Wylder Elio", role: "Financial Analyst" },
 ];
 
-export default function Team(): JSX.Element {
+export default function Team() {
   return (
     <section id="scrollspyTeam" className="py-5 py-xl-8 bsb-section-py-xxl-1">
       <div className="container mb-5 mb-md-6 mb-xl-10">

@@ -35,7 +35,7 @@ const FAQ_ITEMS: FaqItem[] = [
   },
 ];
 
-export default function About(): JSX.Element {
+export default function About() {
   return (
     <section id="scrollspyAbout" className="bsb-tpl-bg-alice-blue py-5 py-xl-8 bsb-section-py-xxl-1">
       <div className="container">

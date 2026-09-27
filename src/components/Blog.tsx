@@ -15,7 +15,7 @@ const POSTS: Post[] = [
   { img: "blog-image-4.jpg", category: "Networking", title: "Five Essential Network Security Trends to Watch", date: "21 Feb 2023", comments: 61 },
 ];
 
-export default function Blog(): JSX.Element {
+export default function Blog() {
   return (
     <section id="scrollspyBlog" className="bsb-tpl-bg-linen py-5 py-xl-8 bsb-section-py-xxl-1">
       <div className="container">
